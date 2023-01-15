@@ -21,8 +21,8 @@ Call the `daySchedule.initPopupWidget(...)` function from any button or link fro
 ```
 ## Examples
 
-1. [Inline example](https://dayschedule.github.io/dayschedule-widget/examples/inline.html)
-2. [Popup example](https://dayschedule.github.io/dayschedule-widget/examples/popup.html)
+1. [Inline example](https://dayschedule.github.io/dayschedule-widget/examples/inline.html) - [See code](/examples/inline.html)
+2. [Popup example](https://dayschedule.github.io/dayschedule-widget/examples/popup.html) - [See code](/examples/popup.html)
 
 ## Widget Types
 There are 2 types of embed option available on [DaySchedule](https://dayschedule.com/) for appointment bookings:
