@@ -1,20 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>DaySchedule Inline Widget</title>
-  <link href="../dist/dayschedule-widget.css" rel="stylesheet" />
-  <script src="../dist/dayschedule-widget.js" defer></script>
-</head>
-<body>
- <h1>Inline Demo</h1>
- 
- 
- <dayschedule-widget url='https://meet.dayschedule.com' options='{ "color" : {"primary": "black", "secondary": "red"} }'> </dayschedule-widget>
- 
- <script src="dayschedule-widget.js" defer></script>
- 
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>DaySchedule Inline Widget</title>
+    <link href="../dist/dayschedule-widget.css" rel="stylesheet" />
+    <script src="../dist/dayschedule-widget.js" defer></script>
+  </head>
+  <body>
+    <div class="px-4 py-5 my-5 text-center">
+      <img
+        class="d-block mx-auto mb-4"
+        src="https://cdn.dayschedule.com/img/dayschedule-64.png"
+        alt="DaySchedule"
+        width="64"
+        height="64"
+      />
+      <h1 class="display-4 fw-bold lh-1">DaySchedule Inline Widget</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          <p>An inline widget for appointment scheduling to embed a <a target="_blank" href="https://dayschedule.com/">day schedule</a> tool directly into the page</p>
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a
+            target="_blank"
+            class="btn btn-primary btn-lg px-4 mr-3"
+            href="https://dayschedule.com/widget"
+            >See documentation</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="container">
+
+      <!--DaySchedule inline widget code -->
+      <dayschedule-widget
+      url="https://meet.dayschedule.com"
+      options='{ "color" : {"primary": "black", "secondary": "red"} }'
+      >
+      </dayschedule-widget>
+      <!--DaySchedule inline widget code -->
+
+    </div>
+  </body>
 </html>
