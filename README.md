@@ -25,13 +25,17 @@ Alternatively, you can install from CDN for better performance and caching globa
 For example: 
 
 ```
-<script src="https://cdn.jsdelivr.net/npm/dayschedule-widget@1.0.2/dist/dayschedule-widget.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/dayschedule-widget@1.0.2/dist/dayschedule-widget.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/dayschedule-widget@1.0.2/dist/dayschedule-widget.min.js" defer></script>
 ```
 
 ## Usage
-Call the `daySchedule.initPopupWidget(...)` function from any button or link from your website:
+Call the `daySchedule.initPopupWidget(...)` function from any button or link from your website to open the scheduling popup:
 ```
-<button type="button" onClick="daySchedule.initPopupWidget({ url: 'https://meet.dayschedule.com' });">Book an appointment</button>
+<button type="button" 
+	onClick="daySchedule.initPopupWidget({ url: 'https://meet.dayschedule.com' });">
+	Book an appointment
+</button>
 ```
 ## Examples
 
