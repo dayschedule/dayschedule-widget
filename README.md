@@ -17,6 +17,17 @@ Add `dayschedule-widget.css` stylesheet and the JavaScript `dayschedule-widget.j
 <script src="/dist/dayschedule-widget.js" defer></script>
 ```
 
+### CDN
+Alternatively, you can install from CDN for better performance and caching globally:
+- [jsdelivr](https://www.jsdelivr.com/package/npm/dayschedule-widget)
+- [unpkg](https://unpkg.com/browse/dayschedule-widget@1.0.2/dist/)
+
+For example: 
+
+```
+<script src="https://cdn.jsdelivr.net/npm/dayschedule-widget@1.0.2/dist/dayschedule-widget.min.js"></script>
+```
+
 ## Usage
 Call the `daySchedule.initPopupWidget(...)` function from any button or link from your website:
 ```
