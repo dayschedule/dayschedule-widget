@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>DaySchedule Popup Widget</title>
+    <link href="/dist/dayschedule-popup.css" rel="stylesheet" />
+    <link href="/dist/dayschedule-widget.css" rel="stylesheet" />
+    <script src="/dist/dayschedule-widget.js" defer></script>
+  </head>
+  <body>
+    <div class="px-4 py-5 my-5 text-center">
+      <img
+        class="d-block mx-auto mb-4"
+        src="https://cdn.dayschedule.com/img/dayschedule-64.png"
+        alt="DaySchedule"
+        width="64"
+        height="64"
+      />
+      <h1 class="display-4 fw-bold lh-1">DaySchedule Popup Widget</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          Click on the "Schedule a meeting" button to open dayschedule app to
+          book a meeting.
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a
+            target="_blank"
+            class="btn btn-primary btn-lg px-4 mr-3"
+            href="https://dayschedule.com/docs/"
+            >See documentation</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md-6">
+          <h2 class="display-5">Basic Popup</h2>
+          <pre><code class="language-javascript">daySchedule.initPopupWidget({
+  url: 'https://meet.dayschedule.com'
+});</code></pre>
+        </div>
+        <div class="col-md-6 my-auto">
+          <button
+            type="button"
+            class="btn btn-primary btn-lg"
+            onclick="dayScheduleBasicPopup()"
+          >
+            Basic example
+          </button>
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <div class="col-md-6">
+          <h2 class="display-5">Color example</h2>
+          <pre><code class="language-javascript">daySchedule.initPopupWidget({
+        url: 'https://meet.dayschedule.com',
+        color: {
+          primary: 'red',
+          secondary: 'pink'
+        }
+      });</code></pre>
+        </div>
+        <div class="col-md-6 my-auto">
+          <button
+            type="button"
+            class="btn btn-primary btn-lg"
+            onclick="dayScheduleColorPopup()"
+          >
+            Color example
+          </button>
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <div class="col-md-6">
+          <h2 class="display-5">Event page</h2>
+          <pre><code class="language-javascript">daySchedule.initPopupWidget({
+        url: 'https://meet.dayschedule.com/product-demo'
+      });</code></pre>
+        </div>
+        <div class="col-md-6 my-auto">
+          <button
+            type="button"
+            class="btn btn-primary btn-lg"
+            onclick="dayScheduleEventPopup()"
+          >
+            Event page example
+          </button>
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <div class="col-md-6">
+          <h2 class="display-5">Date selected</h2>
+          <pre><code class="language-javascript">daySchedule.initPopupWidget({
+        url: 'https://meet.dayschedule.com/product-demo?date=2022-03-21'
+      });</code></pre>
+        </div>
+        <div class="col-md-6 my-auto">
+          <button
+            type="button"
+            class="btn btn-primary btn-lg"
+            onclick="dayScheduleEventPopupWithDates()"
+          >
+            Date selected example
+          </button>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-md-6">
+          <h2 class="display-5">Pre-fill questions</h2>
+          <pre><code class="language-javascript">  daySchedule.initPopupWidget({
+        url: 'https://meet.dayschedule.com/product-demo',
+        questions: {
+          name: 'Vikash',
+          email: 'Vikash.rathee@dayschedule.com'
+        }
+      });</code></pre>
+        </div>
+        <div class="col-md-6 my-auto">
+          <button
+            type="button"
+            class="btn btn-primary btn-lg"
+            onclick="dayScheduleEventPopupWithPreFillQuestions()"
+          >
+            Pre-fill questions
+          </button>
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <div class="col-md-6">
+          <h2 class="display-5">Hide event details</h2>
+          <pre><code class="language-javascript">  daySchedule.initPopupWidget({
+        url: 'https://meet.dayschedule.com/product-demo',
+        hideEvent: true,
+      });</code></pre>
+        </div>
+        <div class="col-md-6 my-auto">
+          <button
+            type="button"
+            class="btn btn-primary btn-lg"
+            onclick="hideEventDetails()"
+          >
+            Hide event details
+          </button>
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <div class="col-md-6">
+          <h2 class="display-5">Hide header</h2>
+          <pre><code class="language-javascript">  daySchedule.initPopupWidget({
+        url: 'https://meet.dayschedule.com/product-demo',
+        hideHeader: true
+      });</code></pre>
+        </div>
+        <div class="col-md-6 my-auto">
+          <button
+            type="button"
+            class="btn btn-primary btn-lg"
+            onclick="hideHeader()"
+          >
+            Hide header
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      // Open basic example
+      function dayScheduleBasicPopup() {
+        daySchedule.initPopupWidget({
+          url: "https://meet.dayschedule.com",
+        });
+      }
+
+      // Set color example
+      function dayScheduleColorPopup() {
+        daySchedule.initPopupWidget({
+          url: "https://meet.dayschedule.com",
+          color: {
+            primary: "#080808",
+            secondary: "#e0e0e0",
+          },
+        });
+      }
+
+      // Open event page
+      function dayScheduleEventPopup() {
+        daySchedule.initPopupWidget({
+          url: "https://meet.dayschedule.com/product-demo",
+        });
+      }
+
+      // Open event page with dates
+      function dayScheduleEventPopupWithDates() {
+        daySchedule.initPopupWidget({
+          url: "https://meet.dayschedule.com/product-demo?date=2022-03-21",
+        });
+      }
+
+      // Open event page with pre-fill questions
+      function dayScheduleEventPopupWithPreFillQuestions() {
+        daySchedule.initPopupWidget({
+          url: "https://meet.dayschedule.com/product-demo",
+          questions: {
+            name: "Vikash",
+            email: "Vikash.rathee@dayschedule.com",
+          },
+        });
+      }
+
+      // Hide the header
+      function hideHeader() {
+        daySchedule.initPopupWidget({
+          url: "https://meet.dayschedule.com/product-demo",
+          hideHeader: true,
+        });
+      }
+
+      // Hide the event details
+      function hideEventDetails() {
+        daySchedule.initPopupWidget({
+          url: "https://meet.dayschedule.com/product-demo",
+          hideEvent: true,
+        });
+      }
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/agate.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+  </body>
+</html>

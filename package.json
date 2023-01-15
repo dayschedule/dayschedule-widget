@@ -1,0 +1,31 @@
+{
+  "name": "dayschedule-widget",
+  "version": "1.0.0",
+  "description": "Appointemnt scheduling widget to embed on website",
+  "main": "dist/dayschedule-widget.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dayschedule/dayschedule-widget.git"
+  },
+  "keywords": [
+    "scheduling",
+    "calendar",
+    "appointment",
+    "booking",
+    "appointment-scheduling",
+    "round-robin",
+    "group-meetings"
+  ],
+  "author": "@vickyRathee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dayschedule/dayschedule-widget/issues"
+  },
+  "homepage": "https://dayschedule.com/widget"
+}
