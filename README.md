@@ -1,4 +1,8 @@
 # dayschedule-widget
+[![version](https://img.shields.io/npm/v/ngx-stripe.svg)](https://www.npmjs.com/package/ngx-stripe)
+[![license](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/ngx-stripe)
+[![hits per month](https://data.jsdelivr.com/v1/package/npm/dayschedule-widget/badge)](https://www.jsdelivr.com/package/npm/dayschedule-widget)
+
 [Appointment scheduling widget](https://dayschedule.com/widget) to embed the booking calendar on your website for 1:1, round-robin and group bookings with Google meet, Zoom and MS Teams integrations
 
 ![appointment scheduling widget](https://user-images.githubusercontent.com/6106479/212533356-d9a9e6fe-733f-48f4-a047-d8b9079f1813.png)
