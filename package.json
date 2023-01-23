@@ -6,9 +6,7 @@
   "files": [
     "dist"
   ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dayschedule/dayschedule-widget.git"
@@ -28,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/dayschedule/dayschedule-widget/issues"
   },
-  "homepage": "https://dayschedule.com/widget"
+  "homepage": "https://dayschedule.com/widget",
+  "devDependencies": {
+    "@playwright/test": "^1.29.2"
+  }
 }
