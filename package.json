@@ -1,12 +1,14 @@
 {
   "name": "dayschedule-widget",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Appointment scheduling widget to embed the booking calendar on your website for 1:1, round-robin and group bookings with Google meet, Zoom and MS Teams integrations",
   "main": "dist/dayschedule-widget.js",
   "files": [
     "dist"
   ],
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dayschedule/dayschedule-widget.git"
@@ -19,7 +21,9 @@
     "appointment-scheduling",
     "appointment-management-system",
     "appointment-scheduler",
-    "appointment-api"
+    "appointment-api",
+    "calendly",
+    "cal.com"
   ],
   "author": "https://github.com/vickyRathee",
   "license": "MIT",

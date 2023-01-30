@@ -9,6 +9,7 @@
 
 
 ## Installation
+Install the `dayschedule-widget` [from NPM](https://www.npmjs.com/package/dayschedule-widget)
 ```
 npm i dayschedule-widget
 ```
