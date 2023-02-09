@@ -53,7 +53,7 @@ There are 2 types of embed option available on [DaySchedule](https://dayschedule
 2. Inline widget
 
 ### Popup widget
-To embed as a button and open the appointment scheduling popup when clicked: 
+To embed as a button and open the appointment scheduling popup when clicked. We **recommend** the popup widget, because it's initialized when someone click on the book now button, instead of having it initialize upon page load to improve website speed and performance by avoiding unnecessary requests.
 ```
 daySchedule.initPopupWidget({
 	url: 'https://meet.dayschedule.com',
