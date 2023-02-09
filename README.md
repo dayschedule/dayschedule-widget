@@ -1,6 +1,6 @@
 # dayschedule-widget
-[![version](https://img.shields.io/npm/v/ngx-stripe.svg)](https://www.npmjs.com/package/dayschedule-widget)
-[![license](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/dayschedule-widget)
+[![version](https://img.shields.io/npm/v/dayschedule-widget.svg)](https://www.npmjs.com/package/dayschedule-widget)
+[![license](https://img.shields.io/npm/l/dayschedule-widget.svg)](https://www.npmjs.com/package/dayschedule-widget)
 [![hits per month](https://data.jsdelivr.com/v1/package/npm/dayschedule-widget/badge)](https://www.jsdelivr.com/package/npm/dayschedule-widget)
 
 [Appointment scheduling widget](https://dayschedule.com/widget) to embed the booking calendar on your website for 1:1, round-robin and group bookings with Google meet, Zoom and MS Teams integrations
@@ -53,7 +53,7 @@ There are 2 types of embed option available on [DaySchedule](https://dayschedule
 2. Inline widget
 
 ### Popup widget
-To embed as a button and open the appointment scheduling popup when clicked: 
+To embed as a button and open the appointment scheduling popup when clicked. We **recommend** the popup widget, because it's initialized when someone click on the book now button, instead of having it initialize upon page load to improve website speed and performance by avoiding unnecessary requests.
 ```
 daySchedule.initPopupWidget({
 	url: 'https://meet.dayschedule.com',
