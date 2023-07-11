@@ -15,23 +15,21 @@ npm i dayschedule-widget
 ```
 
 ## Setup
-Add `dayschedule-widget.css` stylesheet and the JavaScript `dayschedule-widget.js` library into your website HTML `head` section:
+Add the JavaScript `dayschedule-widget.js` library into your website HTML `head` section:
 
 ```
-<link href="/dist/dayschedule-widget.css" rel="stylesheet" />
 <script src="/dist/dayschedule-widget.js" defer></script>
 ```
 
 ### CDN
-Alternatively, you can install from CDN for better performance and caching globally:
+Alternatively, you can install from CDN for better performance and global caching:
 - [jsdelivr](https://www.jsdelivr.com/package/npm/dayschedule-widget)
-- [unpkg](https://unpkg.com/browse/dayschedule-widget@1.0.2/dist/)
+- [unpkg](https://unpkg.com/browse/dayschedule-widget@latest/dist/)
 
 For example: 
 
 ```
-<link href="https://cdn.jsdelivr.net/npm/dayschedule-widget@1.0.2/dist/dayschedule-widget.css" rel="stylesheet" />
-<script src="https://cdn.jsdelivr.net/npm/dayschedule-widget@1.0.2/dist/dayschedule-widget.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/dayschedule-widget@latest/dist/dayschedule-widget.min.js" defer></script>
 ```
 
 ## Usage
@@ -53,7 +51,7 @@ There are 2 types of embed option available on [DaySchedule](https://dayschedule
 2. Inline widget
 
 ### Popup widget
-To embed as a button and open the appointment scheduling popup when clicked. We **recommend** the popup widget, because it's initialized when someone click on the book now button, instead of having it initialize upon page load to improve website speed and performance by avoiding unnecessary requests.
+To embed as a button and open the appointment scheduling popup when clicked. We **recommends** the popup widget, because it's initialized when someone click on the book now button, instead of having it initialize upon page load to improve website speed and performance by avoiding unnecessary requests.
 ```
 daySchedule.initPopupWidget({
 	url: 'https://meet.dayschedule.com',
