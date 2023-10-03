@@ -41,9 +41,14 @@ Call the `daySchedule.initPopupWidget(...)` function from any button or link fro
 </button>
 ```
 ## Examples
+The dayschedule widget offers easy embedding, customizable designs, and [automatic reminders](https://dayschedule.com/docs/t/how-to-send-automatic-email-reminder-for-meetings/365) to manage online appointments. See these example to learn how to embed the schedule widget on different platforms 
+| Platform   | Description                                                           |
+|------------|-----------------------------------------------------------------------|
+| [HTML Popup](https://stackblitz.com/edit/popup-appointment-widget-for-website) | An example of embedding a popup appointment widget using HTML5.|
+| [HTML Inline](https://stackblitz.com/edit/inline-appointment-widget-for-website) | An example of embedding a popup appointment widget using HTML5.|
+| [Wordpress](https://wordpress.org/plugins/dayschedule-appointment-event-and-service-booking/) | A WordPress plugin for managing appointments, events, and services.|
+| [Node.js](https://stackblitz.com/edit/appointment-booking-widget-in-node-js) | An example of embedding an appointment booking widget in Node.js.|
 
-1. [Inline example](https://dayschedule.github.io/dayschedule-widget/examples/inline.html) - [See code](/examples/inline.html)
-2. [Popup example](https://dayschedule.github.io/dayschedule-widget/examples/popup.html) - [See code](/examples/popup.html)
 
 ## Widget Types
 There are 2 types of embed option available on [DaySchedule](https://dayschedule.com/) for appointment bookings:
@@ -62,6 +67,8 @@ daySchedule.initPopupWidget({
 });
 ```
 
+- [Popup examples](https://dayschedule.github.io/dayschedule-widget/examples/popup.html)
+
 ### Inline widget
 To embed the inline appointment scheduling plugin in HTML
 ```
@@ -71,13 +78,15 @@ To embed the inline appointment scheduling plugin in HTML
     }}'></dayschedule-widget>
 ```
 
+- [Inline examples](https://dayschedule.github.io/dayschedule-widget/examples/inline.html)
+
 ## Options
 Here is the list of options available to customize your appointment look and feel to match up with your website and brand :
 | Name | Description |
 |--|--|
-| url | To set your main scheduling link or single event link|
-| color | To set primary and secondary color of your appointment calendar, e.g. `{color: {primary: '#0f0980', secondary: '#afeefe' }}`  |
-| questions | To auto fill registration form questions, e.g. `{questions: {name : 'Vikash'}}`
+|url| To set your main scheduling link or single event link|
+|color| To set primary and secondary color of your appointment calendar, e.g. `{color: {primary: '#0f0980', secondary: '#afeefe' }}`  |
+|questions| To auto fill registration form questions, e.g. `{questions: {name : 'Vikash'}}`
 |hideHeader| To hide the header `{ hideHeader: true }`|
 |hideEvent| To hide the event details from calendar view `{ hideEvent: true }`|
 
