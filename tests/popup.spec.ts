@@ -11,11 +11,11 @@ test("has title", async ({ page }) => {
 test("has dates available", async ({ page }) => {
   await page.goto(uri);
   // Open the modal
-  await page.click('#basicExample');
+  await page.click("#basicExample");
 
   // Click on book now button
-  await page.click('.btn-custom');
-  await page.waitForSelector('.calendar__date:not([disabled])')
+  await page.click('[aria-label="Book now"]');
+  await page.waitForSelector(".calendar__date:not([disabled])");
 
   let availableDates = await page.$$eval(
     ".calendar__date:not([disabled])",
