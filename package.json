@@ -32,6 +32,7 @@
   },
   "homepage": "https://dayschedule.com/widget",
   "devDependencies": {
-    "@playwright/test": "^1.29.2"
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.8.9"
   }
 }
