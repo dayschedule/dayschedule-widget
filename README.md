@@ -45,7 +45,7 @@ The dayschedule widget offers easy embedding, customizable designs, and [automat
 | Platform   | Description                                                           |
 |------------|-----------------------------------------------------------------------|
 | [HTML Popup](https://stackblitz.com/edit/popup-appointment-widget-for-website) | An example of embedding a popup appointment widget using HTML5.|
-| [HTML Inline](https://stackblitz.com/edit/inline-appointment-widget-for-website) | An example of embedding a popup appointment widget using HTML5.|
+| [HTML Inline](https://stackblitz.com/edit/inline-appointment-widget-for-website) | An example of embedding a inline appointment widget using HTML5.|
 | [Wordpress](https://wordpress.org/plugins/dayschedule-appointment-event-and-service-booking/) | A WordPress plugin for managing appointments, events, and services.|
 | [Node.js](https://stackblitz.com/edit/appointment-booking-widget-in-node-js) | An example of embedding an appointment booking widget in Node.js.|
 
