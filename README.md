@@ -57,6 +57,14 @@ There are 2 types of embed option available on [DaySchedule](https://dayschedule
 
 ### Popup widget
 To embed as a button and open the appointment scheduling popup when clicked. We **recommends** the popup widget, because it's initialized when someone click on the book now button, instead of having it initialize upon page load to improve website speed and performance by avoiding unnecessary requests.
+
+1. Add the `dayschedule-popup.css` on website header.
+
+```
+<link href="https://cdn.jsdelivr.net/npm/dayschedule-widget@latest/dist/dayschedule-popup.css" rel="stylesheet" />
+
+```
+2. Add a `onClick` function to open the popup when clicked on a button
 ```
 daySchedule.initPopupWidget({
 	url: 'https://meet.dayschedule.com',
