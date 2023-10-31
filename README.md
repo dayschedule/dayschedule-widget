@@ -93,8 +93,20 @@ Here is the list of options available to customize your appointment look and fee
 | Name | Description |
 |--|--|
 |url| To set your main scheduling link or single event link|
-|color| To set primary and secondary color of your appointment calendar, e.g. `{color: {primary: '#0f0980', secondary: '#afeefe' }}`  |
+|color| To set primary and secondary color of your appointment calendar, e.g. `{color: {primary: '#0f0980', secondary: '#afeefe', mode : 'light' }}`  |
 |questions| To auto fill registration form questions, e.g. `{questions: {name : 'Vikash'}}`
 |hideHeader| To hide the header `{ hideHeader: true }`|
 |hideEvent| To hide the event details from calendar view `{ hideEvent: true }`|
 
+## Dark Mode
+To enable the dark mode (night mode) on your appointment scheduling page
+```
+daySchedule.initPopupWidget({
+	url: 'https://meet.dayschedule.com',
+	color: {
+		primary: '#0f0980',
+		secondary: '#afeefe',
+		mode: 'dark'
+	}
+});
+```
