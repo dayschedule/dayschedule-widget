@@ -93,8 +93,31 @@ Here is the list of options available to customize your appointment look and fee
 | Name | Description |
 |--|--|
 |url| To set your main scheduling link or single event link|
-|color| To set primary and secondary color of your appointment calendar, e.g. `{color: {primary: '#0f0980', secondary: '#afeefe' }}`  |
+|color| To set primary and secondary color of your appointment calendar, e.g. `{color: {primary: '#0f0980', secondary: '#afeefe', mode : 'light' }}`  |
 |questions| To auto fill registration form questions, e.g. `{questions: {name : 'Vikash'}}`
 |hideHeader| To hide the header `{ hideHeader: true }`|
 |hideEvent| To hide the event details from calendar view `{ hideEvent: true }`|
+
+## Dark Mode
+To enable the dark mode (night mode) on your appointment scheduling page. Go to [pages setting](https://dayschedule.com/docs/t/branding/285) to apply globally, or use the `color.mode` option in arugments.
+```
+daySchedule.initPopupWidget({
+	url: 'https://meet.dayschedule.com',
+	color: {
+		primary: '#0f0980',
+		secondary: '#afeefe',
+		mode: 'dark'
+	}
+});
+```
+
+![Dark mode appointment page](https://github.com/dayschedule/dayschedule-widget/assets/6106479/debf551a-2c73-4d10-acc5-68f6bdfdbab5)
+
+## Performance
+
+The dayschedule appointment pages are designed for optimal performance, providing users with a smooth and responsive booking experience across desktop, tablet and mobiles.
+
+The scheduling pages are hosted on 250+ regions on [Cloudflare](https://www.cloudflare.com/network/) and/or [AWS cloudfront](https://aws.amazon.com/cloudfront/) for high-performance and low-latency. So you will always see lightning-fast loading times and efficient caching mechanisms to ensure swift access of your available time slots and services to your customers for online appointment bookings.
+
+![Appointment page performance](https://github.com/dayschedule/dayschedule-widget/assets/6106479/5512e5eb-20de-495c-9b11-bc6c7729bfec)
 
