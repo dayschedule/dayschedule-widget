@@ -99,7 +99,7 @@ Here is the list of options available to customize your appointment look and fee
 |hideEvent| To hide the event details from calendar view `{ hideEvent: true }`|
 
 ## Dark Mode
-To enable the dark mode (night mode) on your appointment scheduling page
+To enable the dark mode (night mode) on your appointment scheduling page. Go to [pages setting](https://dayschedule.com/docs/t/branding/285) to apply globally, or use the `color.mode` option in arugments.
 ```
 daySchedule.initPopupWidget({
 	url: 'https://meet.dayschedule.com',
@@ -110,3 +110,14 @@ daySchedule.initPopupWidget({
 	}
 });
 ```
+
+![Dark mode appointment page](https://github.com/dayschedule/dayschedule-widget/assets/6106479/debf551a-2c73-4d10-acc5-68f6bdfdbab5)
+
+## Performance
+
+The dayschedule appointment pages are designed for optimal performance, providing users with a smooth and responsive booking experience across desktop, tablet and mobiles.
+
+The scheduling pages are hosted on 250+ regions on [Cloudflare](https://www.cloudflare.com/network/) and/or [AWS cloudfront](https://aws.amazon.com/cloudfront/) for high-performance and low-latency. So you will always see lightning-fast loading times and efficient caching mechanisms to ensure swift access to available slots and services to your customers.
+
+![Appointment page performance](https://github.com/dayschedule/dayschedule-widget/assets/6106479/5512e5eb-20de-495c-9b11-bc6c7729bfec)
+
