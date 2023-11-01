@@ -117,7 +117,7 @@ daySchedule.initPopupWidget({
 
 The dayschedule appointment pages are designed for optimal performance, providing users with a smooth and responsive booking experience across desktop, tablet and mobiles.
 
-The scheduling pages are hosted on 250+ regions on [Cloudflare](https://www.cloudflare.com/network/) and/or [AWS cloudfront](https://aws.amazon.com/cloudfront/) for high-performance and low-latency. So you will always see lightning-fast loading times and efficient caching mechanisms to ensure swift access to available slots and services to your customers.
+The scheduling pages are hosted on 250+ regions on [Cloudflare](https://www.cloudflare.com/network/) and/or [AWS cloudfront](https://aws.amazon.com/cloudfront/) for high-performance and low-latency. So you will always see lightning-fast loading times and efficient caching mechanisms to ensure swift access of your available time slots and services to your customers for online appointment bookings.
 
 ![Appointment page performance](https://github.com/dayschedule/dayschedule-widget/assets/6106479/5512e5eb-20de-495c-9b11-bc6c7729bfec)
 
