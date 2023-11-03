@@ -41,7 +41,7 @@ Call the `daySchedule.initPopupWidget(...)` function from any button or link fro
 </button>
 ```
 ## Examples
-The dayschedule widget offers easy embedding, customizable designs, and [automatic reminders](https://dayschedule.com/docs/t/how-to-send-automatic-email-reminder-for-meetings/365) to manage online appointments. See these example to learn how to embed the appointment scheduling widget in React, Wordpress, Angular, Vue, Node.js etc.
+The dayschedule widget offers easy embeddable, customizable designs, and [automatic reminders](https://dayschedule.com/docs/t/how-to-send-automatic-email-reminder-for-meetings/365) to manage online appointments. See these examples to learn how to embed the appointment scheduling widget in React, Nest.js, Wordpress, Angular, Vue, Node.js etc.
 
 ![Platforms](/assets/platforms.png)
 
