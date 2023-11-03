@@ -49,7 +49,8 @@ The dayschedule widget offers easy embedding, customizable designs, and [automat
 | [HTML Inline](https://stackblitz.com/edit/inline-appointment-widget-for-website) | An example of embedding a inline appointment widget using HTML5.|
 | [Wordpress](https://wordpress.org/plugins/dayschedule-appointment-event-and-service-booking/) | A WordPress plugin for managing appointments, events, and services.|
 | [Node.js](https://stackblitz.com/edit/appointment-booking-widget-in-node-js) | Embed appointment booking widget in Node.js|
-| [React](https://stackblitz.com/edit/react-appointment-booking-widget) | Embed appointment booking widget in React.js and Tailwind CSS|
+| [React](https://stackblitz.com/edit/react-appointment-booking-widget) | React.js and Tailwind CSS example to embed appointment booking widget in React |
+| [Angular](https://stackblitz.com/edit/angular-appointment-booking-widget) | Angular 16 example to embed appointment booking widget in Angular|
 
 ## Widget Types
 There are 2 types of embed option available on [DaySchedule](https://dayschedule.com/) for appointment bookings:
