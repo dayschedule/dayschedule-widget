@@ -41,14 +41,15 @@ Call the `daySchedule.initPopupWidget(...)` function from any button or link fro
 </button>
 ```
 ## Examples
-The dayschedule widget offers easy embedding, customizable designs, and [automatic reminders](https://dayschedule.com/docs/t/how-to-send-automatic-email-reminder-for-meetings/365) to manage online appointments. See these example to learn how to embed the schedule widget on different platforms 
+The dayschedule widget offers easy embedding, customizable designs, and [automatic reminders](https://dayschedule.com/docs/t/how-to-send-automatic-email-reminder-for-meetings/365) to manage online appointments. See these example to learn how to embed the appointment scheduling widget in React, Wordpress, Angular, Vue, Node.js etc.
+
 | Platform   | Description                                                           |
 |------------|-----------------------------------------------------------------------|
 | [HTML Popup](https://stackblitz.com/edit/popup-appointment-widget-for-website) | An example of embedding a popup appointment widget using HTML5.|
 | [HTML Inline](https://stackblitz.com/edit/inline-appointment-widget-for-website) | An example of embedding a inline appointment widget using HTML5.|
 | [Wordpress](https://wordpress.org/plugins/dayschedule-appointment-event-and-service-booking/) | A WordPress plugin for managing appointments, events, and services.|
-| [Node.js](https://stackblitz.com/edit/appointment-booking-widget-in-node-js) | An example of embedding an appointment booking widget in Node.js.|
-
+| [Node.js](https://stackblitz.com/edit/appointment-booking-widget-in-node-js) | Embed appointment booking widget in Node.js|
+| [React](https://stackblitz.com/edit/react-appointment-booking-widget) | Embed appointment booking widget in React.js and Tailwind CSS|
 
 ## Widget Types
 There are 2 types of embed option available on [DaySchedule](https://dayschedule.com/) for appointment bookings:
