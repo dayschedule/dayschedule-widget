@@ -2,6 +2,7 @@
 [![version](https://img.shields.io/npm/v/dayschedule-widget.svg)](https://www.npmjs.com/package/dayschedule-widget)
 [![license](https://img.shields.io/npm/l/dayschedule-widget.svg)](https://www.npmjs.com/package/dayschedule-widget)
 [![hits per month](https://data.jsdelivr.com/v1/package/npm/dayschedule-widget/badge)](https://www.jsdelivr.com/package/npm/dayschedule-widget)
+![Discord Shield](https://discordapp.com/api/guilds/ZMRFdxXJt9/widget.png?style=shield)
 
 [Appointment scheduling widget](https://dayschedule.com/widget) to embed the booking calendar on your website for 1:1, round-robin and group bookings with Google meet, Zoom and MS Teams integrations
 
