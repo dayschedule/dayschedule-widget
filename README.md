@@ -124,19 +124,22 @@ daySchedule.initPopupWidget({
 
 The dayschedule appointment pages are designed for optimal performance, providing users with a smooth and responsive booking experience across desktop, tablet and mobiles.
 
-We optimize each of the functatonality to - 
-- Minimize network reqeusts
-- Image conversion to WebP (a modern image format developed by Google, to ensure high-quality images while significantly reducing file sizes)
-- Advanced gzip, br compression to minimize the size of assets such as scripts, and stylesheets
-- Low latency with CDN
+We optimize each of the functionality to - 
+1. Minimize network requests
+2. Image conversion to WebP (a modern image format [developed by Google](https://developers.google.com/speed/webp), to ensure high-quality images while significantly reducing file sizes)
+3. Advanced gzip, br compression to minimize the size of assets such as scripts, and stylesheets
+4. Low latency with CDN
 
-The scheduling pages are hosted on 250+ regions on [Cloudflare](https://www.cloudflare.com/network/) and/or [AWS cloudfront](https://aws.amazon.com/cloudfront/) for high-performance and low-latency. So you will always see lightning-fast loading times and efficient caching mechanisms to ensure swift access of your available time slots and services to your customers for online appointment bookings.
-
-> Faster then Calendly, Cal.com etc. 
+Making it **faster then Calendly, Cal.com** etc. 
 
 ![Scheduling pages performance comparisons](/assets/appointment-scheduler-performance-comparison.png)
+
+The scheduling pages are hosted on 250+ regions on [Cloudflare](https://www.cloudflare.com/network/) and/or [AWS cloudfront](https://aws.amazon.com/cloudfront/) for high-performance and low-latency. So you will always see lightning-fast loading times and efficient caching mechanisms to ensure swift access of your available time slots and services to your customers for online appointment bookings.
 
 ### A grade on Gtmetrix, Lighthouse :white_check_mark:
 
 ![DaySchedule appointment page performance](/assets/dayschedule-performance.png)
 
+## Support
+
+Have a question? Contact us on support@dayschedule.com
