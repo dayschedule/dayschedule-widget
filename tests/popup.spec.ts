@@ -5,6 +5,7 @@ const uri = `file:${path.join(__dirname, "../examples/popup.html")}`;
 
 test("has title", async ({ page }) => {
   await page.goto(uri);
+  await page.setViewportSize({ width: 1960, height: 1080 });
   await expect(page).toHaveTitle(/popup/);
 });
 
