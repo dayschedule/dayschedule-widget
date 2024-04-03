@@ -3,8 +3,15 @@ import * as path from "path";
 
 const uri = `file:${path.join(__dirname, "../examples/popup.html")}`;
 
+test.beforeEach(async ({ page }) => {
+  await page.route("**/highlight.min.js", (route) => {
+    route.abort();
+  });
+});
+
 test("has title", async ({ page }) => {
   await page.goto(uri);
+  await page.setViewportSize({ width: 1960, height: 1080 });
   await expect(page).toHaveTitle(/popup/);
 });
 
