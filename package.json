@@ -1,6 +1,6 @@
 {
   "name": "dayschedule-widget",
-  "version": "1.2.4-beta",
+  "version": "1.2.5",
   "description": "Appointment scheduling widget to embed the booking calendar on your website for 1:1, round-robin and group bookings with Google meet, Zoom and MS Teams integrations",
   "main": "dist/dayschedule-widget.js",
   "files": [
